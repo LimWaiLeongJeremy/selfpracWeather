@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form
+        method="get"
+        action="exchange"
+    >
+
+        <select name="from" id="from">
+            <option value="USD">US Dollar</option>
+            <option value="SGD">SG Dollar</option>
+            <option value="TWD">TW Dollar</option>
+            <option value="GBP">British Dollar</option>
+        </select>
+
+        <select name="to" id="to">
+            <option value="USD">US Dollar</option>
+            <option value="SGD">SG Dollar</option>
+            <option value="TWD">TW Dollar</option>
+            <option value="GBP">British Dollar</option>
+        </select>
+
+        <input type="text"
+                name="amount"
+                id="amount"
+                required
+                placeholder="Enter amount">
+        
+        <button type="submit">Convert</button>
+    </form>
+</body>
+</html>
